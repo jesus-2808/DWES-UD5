@@ -9,7 +9,7 @@
 <body>
     <?php
   
-   session_start();
+ session_start();
 $_SESSION["nombre"]="El nombre de la sesion es Jesus Gonzalez";
  $_SESSION["edad"]=31;
 

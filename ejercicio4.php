@@ -23,7 +23,7 @@
 
         echo "<td>";
      
-        echo "puede ser 0 o 1. Por defecto es 1";
+        echo "puede ser 0 o 1. Por defecto es 1. Si se usan cookies o no";
    
         echo "</td>";
         echo "<td>";
