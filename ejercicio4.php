@@ -23,12 +23,12 @@
 
         echo "<td>";
      
-        echo "puede ser 0 o 1. Por defecto es 1. Si se usan cookies o no";
+        echo "puede ser 0 o 1. Por defecto es 1. Si se usan cookies o no, alternativa por la url";
    
         echo "</td>";
         echo "<td>";
      
-        echo "Puede ser 0 o 1, por defecto es 1";
+        echo "Puede ser 0 o 1, por defecto es 1. Solo usará cookies para almacenar el id de sesion";
    
         echo "</td>";
 
