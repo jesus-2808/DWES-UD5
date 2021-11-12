@@ -27,7 +27,7 @@
     function getUser($name){
        
         $conexion = creaConexion();
-        $sql=$conexion->prepare("SELECT `Usuario`,`contraseña`FROM registro WHERE Usuario=:Usuario");
+        $sql=$conexion->prepare("SELECT * FROM registro WHERE Usuario=:Usuario");
       
         $sql->bindParam(":Usuario", $name);
         $sql->execute();
